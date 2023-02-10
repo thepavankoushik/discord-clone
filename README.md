@@ -14,11 +14,11 @@
 
 When a request is made from the client, the request is processed by the API gateway, and the request, along with its parameters like path params, query params and body params are extracted and forwarded to Node JS. Once the request task is accomplished, the response is sent to client. 
 
-####Video Calling Policy:
+#### Video Calling Policy:
 
 * On front end, I have used JavaScript to create a WebRTC connection between client and sever. This connection allowed me to send real-time data and media streams between client and server
 
-####Real Time Chat Policy:
+#### Real Time Chat Policy:
 
 * On the backend, I have integrated Socket.IO into server-side code. This would allow me to handle real-time events emitted by the client, and to send real-time updates to the client.
 
